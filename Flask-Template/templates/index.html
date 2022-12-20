@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <Style>
+        .contain{
+            width: 550px;
+            height: 50px;
+            border-radius: 5px;
+            margin-right: 33%;
+            background-color: aqua;
+            border-color: 2px solid black;
+            margin-left: 30%;
+            margin-top: 12%;
+        }
+     .row{
+        margin-left: 20px;
+     }
+     .Column{
+        margin-left: 30%;
+     }
+     .Index{
+        margin-left: 30%; 
+        border-radius: 07px;
+        color: black;
+       
+     }
+    </Style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="contain">
+
+            <h1 class="row">WELCOME TO GEEKSFORGEEKS WEBSITE !</h1>
+        </div>
+        <div >
+
+            <h3  class="Column">GFG is the website through which you can learn anything in your study <br> field and improve your skills and
+                also knowledge.</h3>
+        </div>
+        <a  class="Index" href="{{url_for('about')}}">Click here</a>
+    </section>
+</body>
+
+</html>
